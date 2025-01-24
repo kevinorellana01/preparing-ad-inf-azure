@@ -20,7 +20,7 @@ This repository demonstrates the implementation of an on-premises-style Active D
 
 <h2>Steps in Creating Resource Group, Virtual Network, and Virtual Machines</h2>
 
-**Setup Domain Controller in Azure**
+**1. Setup Domain Controller in Azure**
 
 - Create a Resource Group
   - Navigate to the Azure Portal and create a new Resource Group.
@@ -35,7 +35,7 @@ This repository demonstrates the implementation of an on-premises-style Active D
 - Log into the VM and Disable the Windows Firewall
   - For testing connectivity, disable the Windows Firewall temporarily within `DC-1`.
 
-**Setup Client-1 in Azure**
+**2. Setup Client-1 in Azure**
 
 - Create the Client VM
   - Use the following settings to create a Windows 10 Virtual Machine named `Client-1`:
